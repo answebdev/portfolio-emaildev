@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import classes from '../../styles/Navbar.module.css';
+import resume from '../../pdf/AdolfSchmuck_Resume.pdf';
 
 // Hide nav bar on scroll down and show it on scroll up -
 // https://stackoverflow.com/questions/51340863/hide-nav-bar-on-scroll-down-and-show-it-on-scroll-up
@@ -27,7 +28,7 @@ const Navbar = () => (
       <div className={`${classes.NavbarTitle} ${classes.NavbarItem}`}>
         <div>
           <Link className={classes.BrandLink} to='/'>
-            Jisun Kim
+            Adolf Schmuck
           </Link>
         </div>
       </div>
@@ -40,13 +41,8 @@ const Navbar = () => (
               </Link>
             </li>
             <li className={classes.NavbarItem}>
-              <Link className={classes.NavLink} to='/photos'>
-                Photos
-              </Link>
-            </li>
-            <li className={classes.NavbarItem}>
-              <Link className={classes.NavLink} to='/videos'>
-                Videos
+              <Link className={classes.NavLink} to='/portfolio'>
+                Portfolio
               </Link>
             </li>
             <li className={classes.NavbarItem}>
@@ -60,31 +56,34 @@ const Navbar = () => (
             <li className={classes.NavbarItem}>
               <a
                 className={classes.SocialIcons}
-                href='https://www.instagram.com/likejisun/'
+                href='https://github.com/answebdev'
                 rel='noopener noreferrer'
                 target='_blank'
+                // title='GitHub'
               >
-                <i class='fa-brands fa-instagram'></i>
+                <i class='fab fa-github'></i>
               </a>
             </li>
             <li className={classes.NavbarItem}>
               <a
                 className={classes.SocialIcons}
-                href='https://www.facebook.com/lovelyjisuni'
+                href='https://www.linkedin.com/in/adolf-schmuck/'
                 rel='noopener noreferrer'
                 target='_blank'
+                // title='LinkedIn'
               >
-                <i class='fa-brands fa-facebook-square'></i>
+                <i class='fab fa-linkedin'></i>
               </a>
             </li>
             <li className={classes.NavbarItem}>
               <a
                 className={classes.SocialIcons}
-                href='https://www.linkedin.com/in/jisun-kim-421a6a176/'
+                href={resume}
                 rel='noopener noreferrer'
                 target='_blank'
+                title='Resume'
               >
-                <i class='fa-brands fa-linkedin'></i>
+                <i class='fa-solid fa-file'></i>
               </a>
             </li>
           </div>

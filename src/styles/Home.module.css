@@ -10,6 +10,19 @@
   margin: 0 auto;
 }
 
+.Header {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  transform-style: preserve-3d;
+  perspective: 100px;
+}
+
 .Landing {
   position: relative;
   z-index: 1;
@@ -25,7 +38,12 @@
 
 .Bg {
   position: absolute;
-  background-image: url('../img/jisun3.jpg');
+  /* background-image: url('../img/jisun3.jpg'); */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.45) 100%, transparent),
+    url('../img/bg1.webp');
+
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -39,7 +57,6 @@
   position: absolute;
   height: max(100vh, 35rem);
   width: 100%;
-  /* background-color: rgba(0, 0, 0, 0.5); */
   background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -126,18 +143,6 @@
   .Container {
     width: 90%;
   }
-
-  /* .section-subheading {
-      width: 100%;
-    }
-    .feature-card {
-      width: 15rem;
-      border-radius: 1.5em;
-    }
-    .feature-title {
-      top: -7%;
-      padding: 0.5em 2em;
-    } */
 }
 
 @media (max-width: 300px) {

@@ -81,6 +81,7 @@
 .SocialIcons:hover {
   color: var(--primaryDark);
   border-top: 2px solid var(--secondaryDark);
+  /* color: var(--secondaryDark); */
 }
 
 ul {
