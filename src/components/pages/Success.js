@@ -7,7 +7,7 @@ const Success = () => {
   return (
     <div className={classes.Success}>
       <Helmet>
-        <title>Jisun Kim | Success</title>
+        <title>Adolf Schmuck | Success</title>
         <style type='text/css'>{`
         .navbar {
           display: none;

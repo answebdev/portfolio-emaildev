@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div>
       <Helmet>
-        <title>Jisun Kim | Contact</title>
+        <title>Adolf Schmuck | Contact</title>
       </Helmet>
       <div className={classes.Container}>
         <Row>

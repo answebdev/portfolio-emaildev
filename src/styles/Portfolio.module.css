@@ -1,0 +1,243 @@
+.Container {
+  padding: 6em;
+  color: var(--primaryDark);
+}
+
+.LeadTitle {
+  margin-top: 1em;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-family: var(--primaryFontFamily);
+  text-align: center;
+}
+
+.MainText {
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.Wrapper {
+  width: 100%;
+  height: 520px;
+}
+
+.CardContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.CardDiv {
+  margin-bottom: 60px;
+}
+
+/* .CardDiv:hover {
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+    0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+} */
+
+.CardWidth {
+  width: 18rem;
+}
+
+.Button {
+  background-color: var(--primaryDark);
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding: 4px 12px;
+  border-style: solid;
+  border-radius: 0.25rem;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid var(--primaryDark);
+}
+
+.LaunchBtn {
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.Button:hover,
+.Button:focus {
+  background-color: #a9a9a9;
+  transition-duration: 0.3s;
+  color: #ffffff;
+  border-color: #a9a9a9;
+  outline: none;
+}
+/* ===== MEDIA QUERIES ===== */
+
+@media screen and (min-width: 981px) and (max-width: 1200px) {
+  /* body {
+    background-color: red;
+  } */
+}
+
+@media screen and (min-width: 769px) and (max-width: 980px) {
+  /* body {
+    background-color: yellow;
+  } */
+
+  .CardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .CardWidth {
+    width: 28rem;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  /* body {
+    background-color: steelblue;
+  } */
+
+  .LeadTitle {
+    padding-top: 2em;
+  }
+
+  .Container {
+    padding: 6em;
+  }
+
+  .CardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .CardWidth {
+    width: 28rem;
+  }
+}
+
+@media screen and (min-width: 551px) and (max-width: 640px) {
+  /* body {
+    background-color: brown;
+  } */
+
+  .LeadTitle {
+    padding-top: 2em;
+  }
+
+  .Container {
+    padding: 6em;
+  }
+
+  .CardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .CardWidth {
+    width: 28rem;
+  }
+}
+
+@media screen and (min-width: 471px) and (max-width: 550px) {
+  /* body {
+    background-color: salmon;
+  } */
+
+  .Container {
+    padding: 6em 4em 4em 4em;
+  }
+
+  .LeadTitle {
+    padding-top: 3em;
+  }
+
+  .CardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .CardWidth {
+    width: 25rem;
+  }
+}
+
+@media screen and (min-width: 431px) and (max-width: 470px) {
+  /* body {
+    background-color: black;
+  } */
+
+  .Container {
+    padding: 6em 4em 4em 4em;
+  }
+
+  .LeadTitle {
+    padding-top: 3em;
+  }
+
+  .CardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .CardWidth {
+    width: 20rem;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 430px) {
+  /* body {
+    background-color: burlywood;
+  } */
+
+  .Container {
+    padding: 6em 4em 4em 4em;
+  }
+
+  .LeadTitle {
+    padding-top: 3em;
+  }
+
+  .CardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .CardWidth {
+    width: 20rem;
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 400px) {
+  /* body {
+    background-color: pink;
+  } */
+
+  .Container {
+    padding: 6em 4em 4em 4em;
+  }
+
+  .LeadTitle {
+    padding-top: 3em;
+  }
+
+  .CardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .CardWidth {
+    width: 18rem;
+  }
+}

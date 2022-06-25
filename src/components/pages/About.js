@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div>
       <Helmet>
-        <title>Jisun Kim | About</title>
+        <title>Adolf Schmuck | About</title>
       </Helmet>
       <div className={classes.Container}>
         <Row>

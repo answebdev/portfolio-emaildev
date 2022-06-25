@@ -9,7 +9,7 @@ const Error = () => {
   return (
     <div className={classes.Error}>
       <Helmet>
-        <title>Jisun Kim | Error</title>
+        <title>Adolf Schmuck | Error</title>
         <style type='text/css'>{`
         .navbar,
         .footer {
