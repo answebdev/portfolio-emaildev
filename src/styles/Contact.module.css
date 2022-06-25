@@ -20,7 +20,8 @@
 
 .LeadText {
   /* margin-top: 40px; */
-  line-height: 1.6;
+  /* line-height: 1.6; */
+  line-height: 180%;
 }
 
 .FormInput {

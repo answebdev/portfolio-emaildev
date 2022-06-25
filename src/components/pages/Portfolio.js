@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Row, Col, Card } from 'react-bootstrap';
 import classes from '../../styles/Portfolio.module.css';
 
 const Portfolio = () => {

@@ -2,10 +2,10 @@
   box-sizing: border-box;
 }
 
-body {
+/* body {
   font-family: 'Lato';
   letter-spacing: 0.1em;
-}
+} */
 
 #name {
   font-family: 'Lato';
@@ -233,8 +233,6 @@ a.btn-links,
   border-radius: 50%;
   color: #24292e !important;
   background-color: #ffffff !important;
-
-  /* color: #ffffff !important; */
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -255,8 +253,6 @@ a.btn-links:hover,
 .fa-home:before,
 .fa-book:before,
 .fa-envelope-square:before {
-  /* content: "\f199"; */
-  /* margin-left: 3px; */
   font-size: 24px;
 }
 

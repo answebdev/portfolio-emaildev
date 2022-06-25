@@ -61,7 +61,7 @@ const Navbar = () => (
                 target='_blank'
                 // title='GitHub'
               >
-                <i class='fab fa-github'></i>
+                <i className='fab fa-github'></i>
               </a>
             </li>
             <li className={classes.NavbarItem}>
@@ -72,7 +72,7 @@ const Navbar = () => (
                 target='_blank'
                 // title='LinkedIn'
               >
-                <i class='fab fa-linkedin'></i>
+                <i className='fab fa-linkedin'></i>
               </a>
             </li>
             <li className={classes.NavbarItem}>
@@ -83,7 +83,7 @@ const Navbar = () => (
                 target='_blank'
                 title='Resume'
               >
-                <i class='fa-solid fa-file'></i>
+                <i className='fa-solid fa-file'></i>
               </a>
             </li>
           </div>

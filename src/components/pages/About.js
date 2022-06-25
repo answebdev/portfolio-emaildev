@@ -13,7 +13,7 @@ const About = () => {
         <Row>
           <Col md={12}>
             <h2 className={classes.LeadTitle}>
-              <strong>Jisun Kim</strong>
+              <strong>Adolf Schmuck</strong>
             </h2>
           </Col>
         </Row>
@@ -21,7 +21,7 @@ const About = () => {
         <Row>
           {/* <Col  md={5}> */}
           <Col lg={5} md={12}>
-            <p className={classes.SubTitle}>Seoul, Korea</p>
+            <p className={classes.SubTitle}>Email Developer</p>
             <p className={classes.MainText}>
               Jisun Kim is a model who dolor sit amet, consectetur adipiscing
               elit, sed do eiusmod tempor incididunt ut labore et dolore magna

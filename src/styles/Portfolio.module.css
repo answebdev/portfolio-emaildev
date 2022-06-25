@@ -1,6 +1,8 @@
 .Container {
   padding: 6em;
   color: var(--primaryDark);
+  letter-spacing: 1px;
+  line-height: 180%;
 }
 
 .LeadTitle {
@@ -67,17 +69,42 @@
   border-color: #a9a9a9;
   outline: none;
 }
+
 /* ===== MEDIA QUERIES ===== */
 
 @media screen and (min-width: 981px) and (max-width: 1200px) {
   /* body {
     background-color: red;
   } */
+
+  /* .Container {
+    padding: 6em 2em;
+  } */
+
+  /* .CardContainer {
+    justify-content: center;
+  }
+
+  .CardWidth {
+    width: 28rem;
+  } */
+
+  .CardWidth {
+    width: 15.5rem;
+  }
+
+  .Button {
+    margin-bottom: 5px;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 980px) {
   /* body {
     background-color: yellow;
+  } */
+
+  /* .Container {
+    padding: 6em 2em;
   } */
 
   .CardContainer {
@@ -97,12 +124,16 @@
     background-color: steelblue;
   } */
 
-  .LeadTitle {
-    padding-top: 2em;
-  }
+  /* .Container {
+    padding: 6em 2em;
+  } */
 
   .Container {
     padding: 6em;
+  }
+
+  .LeadTitle {
+    padding-top: 2em;
   }
 
   .CardContainer {
@@ -113,7 +144,7 @@
   }
 
   .CardWidth {
-    width: 28rem;
+    width: 100%;
   }
 }
 
@@ -122,12 +153,16 @@
     background-color: brown;
   } */
 
-  .LeadTitle {
-    padding-top: 2em;
-  }
+  /* .Container {
+    padding: 6em 2em;
+  } */
 
   .Container {
     padding: 6em;
+  }
+
+  .LeadTitle {
+    padding-top: 2em;
   }
 
   .CardContainer {
@@ -138,13 +173,17 @@
   }
 
   .CardWidth {
-    width: 28rem;
+    width: 100%;
   }
 }
 
 @media screen and (min-width: 471px) and (max-width: 550px) {
   /* body {
     background-color: salmon;
+  } */
+
+  /* .Container {
+    padding: 6em 2em;
   } */
 
   .Container {
@@ -163,7 +202,7 @@
   }
 
   .CardWidth {
-    width: 25rem;
+    width: 100%;
   }
 }
 
@@ -188,7 +227,7 @@
   }
 
   .CardWidth {
-    width: 20rem;
+    width: 100%;
   }
 }
 
@@ -213,13 +252,17 @@
   }
 
   .CardWidth {
-    width: 20rem;
+    width: 100%;
   }
 }
 
 @media screen and (min-width: 100px) and (max-width: 400px) {
   /* body {
     background-color: pink;
+  } */
+
+  /* .Container {
+    padding: 6em 2em;
   } */
 
   .Container {
@@ -238,6 +281,10 @@
   }
 
   .CardWidth {
-    width: 18rem;
+    width: 100%;
+  }
+
+  .Button {
+    margin-bottom: 5px;
   }
 }
